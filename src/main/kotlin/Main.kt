@@ -1,6 +1,7 @@
 import Day1.Calories
 import Day2.RockPaperScissors
 import Day3.Rucksack
+import Day4.Cleanup
 
 fun main() {
     println("Day1:")
@@ -24,6 +25,14 @@ fun main() {
     result = rucksack.getPriority("src/main/kotlin/Day3/day3.txt")
     println(result)
     result = rucksack.getPriority2("src/main/kotlin/Day3/day3.txt")
+    println(result)
+    println()
+
+    println("Day4:")
+    val cleanup = Cleanup()
+    result = cleanup.findPairs("src/main/kotlin/Day4/day4.txt")
+    println(result)
+    result = cleanup.findOverlaps("src/main/kotlin/Day4/day4.txt")
     println(result)
     println()
 
