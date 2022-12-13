@@ -14,4 +14,13 @@ class RucksackTest {
 
         assertEquals(expected, result)
     }
+
+    @Test
+    fun testGetPriority2(){
+        val expected = 70
+
+        val result = testRucksack.getPriority2("src/test/kotlin/Day3/test.txt")
+
+        assertEquals(expected, result)
+    }
 }

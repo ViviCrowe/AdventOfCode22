@@ -23,6 +23,8 @@ fun main() {
     val rucksack = Rucksack()
     result = rucksack.getPriority("src/main/kotlin/Day3/day3.txt")
     println(result)
+    result = rucksack.getPriority2("src/main/kotlin/Day3/day3.txt")
+    println(result)
     println()
 
 }
